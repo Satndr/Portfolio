@@ -90,3 +90,53 @@
   background: var(--color-primary);
   padding: 1px 22px;
 }
+
+@media screen and (max-width: 830px) {
+  .container {
+    padding: 20px;
+    height: 480px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+
+  .skill {
+    font-size: 14px;
+    padding: 3px 10px;
+  }
+
+  .link {
+    font-size: 24px;
+    padding: 1px 18px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 15px;
+    height: 450px;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+
+  .skill {
+    font-size: 12px;
+    padding: 2px 8px;
+  }
+
+  .link {
+    font-size: 20px;
+    padding: 1px 15px;
+  }
+}

@@ -110,4 +110,36 @@
   .content {
     align-items: center;
   }
+
+  .title {
+    font-size: 48px;
+    text-align: center;
+  }
+
+  .description {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .contactBtn {
+    font-size: 24px;
+    padding: 15px 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .title {
+    font-size: 36px;
+  }
+
+  .description {
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+
+  .contactBtn {
+    font-size: 20px;
+    padding: 12px 18px;
+  }
 }

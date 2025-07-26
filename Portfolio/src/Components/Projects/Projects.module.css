@@ -78,3 +78,31 @@
   background-color: var(--color-primary);
   transform: scale(1.2);
 }
+
+@media screen and (max-width: 830px) {
+  .title {
+    font-size: 28px;
+  }
+
+  .projects {
+    height: 500px;
+  }
+
+  .projectCard {
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .title {
+    font-size: 24px;
+  }
+
+  .projects {
+    height: 450px;
+  }
+
+  .projectCard {
+    max-width: 400px;
+  }
+}

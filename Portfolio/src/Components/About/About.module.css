@@ -93,4 +93,26 @@
     padding-left: 0;
     padding-right: 0;
   }
+
+  .aboutItem h3 {
+    font-size: 20px;
+  }
+
+  .aboutItem p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .title {
+    font-size: 28px;
+  }
+
+  .aboutItem h3 {
+    font-size: 18px;
+  }
+
+  .aboutItem p {
+    font-size: 14px;
+  }
 }

@@ -1,26 +1,18 @@
 [
-    {
-      "title": "Project A",
-      "imageSrc": "project",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
-    },
-    {
-      "title": "Project B",
-      "imageSrc": "project",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
-    },
-    {
-      "title": "Project C",
-      "imageSrc": "project",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
-    }
-  ]
+  {
+    "title": "AI Job Tracker Dashboard",
+    "imageSrc": "project",
+    "description": "A full-stack job tracking dashboard with role-based login, job CRUD, filtering, and data visualization. Integrated OpenAI API to auto-generate cover letters and used Chart.js for statistics.",
+    "skills": ["React", "Redux", "TailwindCSS", "REST APIs", "JWT", "OpenAI API", "Chart.js"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "E-commerce Admin Panel (CMS)",
+    "imageSrc": "project",
+    "description": "A responsive product management dashboard with authentication, product CRUD, search/filter, pagination, and image upload using mock JSON server APIs.",
+    "skills": ["React", "Zustand", "Material-UI", "React Router", "JSON Server"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  }
+]

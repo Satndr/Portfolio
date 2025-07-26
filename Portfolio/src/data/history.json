@@ -1,35 +1,28 @@
 [
-    {
-        "role": "Senior Associate Software Engineer",
-        "organisation": "Capgemini",
-        "startDate": "Dec, 2022",
-        "endDate": "present",
-        "experiences": [
-            "Built scalable React apps, integrated chatbots, and improved UI/UX in Agile teams."
-        ],
-        "imageSrc1": "netflix"
-    },
-    
-      {
-        "role": "Frontend Developer (AI Job Tracker)",
-        "organisation": "Self",
-        "startDate": "2023",
-        "endDate": "2024",
-        "experiences": [
-          "Developed a job tracker with AI-generated cover letters and Chart.js visualizations."
-        ],
-        "imageSrc1": "google"
-      },
-      {
-        "role": "Frontend Developer (E-commerce CMS)",
-        "organisation": "Self",
-        "startDate": "2023",
-        "endDate": "2024",
-        "experiences": [
-          "Built a responsive admin panel with product CRUD, search, filters, and image preview."
-        ],
-        "imageSrc1": "microsoft"
-      }
+  {
+    "role": "Senior Associate Software Engineer",
+    "organisation": "Capgemini",
+    "startDate": "Dec, 2022",
+    "endDate": "present",
+    "experiences": [
+      "Built scalable React apps for enterprise clients with real-time chat using CometD.",
+      "Integrated AI chatbots (Watson, Copilot, ChatGPT) via REST APIs.",
+      "Created interactive workflows using GOJS and IBM Graphite (app.xml).",
+      "Improved accessibility and performance in Agile teams."
+    ],
+    "imageSrc1": "capg"
+  },
+  {
+    "role": "Frontend Developer (AI Job Tracker)",
+    "organisation": "Self",
+    "startDate": "2023",
+    "endDate": "2024",
+    "experiences": [
+      "Developed a job tracker with AI-generated cover letters and JWT login.",
+      "Used Chart.js for job stats and built a responsive UI with TailwindCSS."
+    ],
+    "imageSrc1": "Ai_job_tracker"
+  }
 ]
 
 

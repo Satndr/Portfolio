@@ -1,5 +1,6 @@
 import React from 'react'
 import heroImage from "../../assets/hero/heroImage.png";
+import profilePic from "../../assets/hero/profilePic.png"
 import styles from "./Hero.module.css";
 
 export const Hero = () => {
@@ -13,7 +14,7 @@ export const Hero = () => {
                 </p>
                 <a className={styles.contactBtn} href='mailto:iamsatndra@gmail.com'>Contact Me</a>
             </div>
-            <img className={styles.heroImg} src={heroImage} alt='hero-img' />
+            <img className={styles.heroImg} src={profilePic} alt='hero-img' />
 
             <div className={styles.topBlur} />
             <div className={styles.bottomBlur} />

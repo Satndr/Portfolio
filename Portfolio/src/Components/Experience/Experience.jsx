@@ -6,11 +6,11 @@ import { getImageUrl } from "../../util";
 import html from "../../assets/skills/html.png";
 
 const images = import.meta.glob('../../assets/skills/*.png', { eager: true });
-const images1 = import.meta.glob('../../assets/history/*.png', { eager: true });
+const images1 = import.meta.glob('../../assets/history/*.{png,avif}', { eager: true });
 
 const getImagePath1 = (name) => {
     const match = Object.entries(images1).find(([key]) =>
-        key.endsWith(`/${name}.png`)
+        key.endsWith(`/${name}.png`) || key.endsWith(`/${name}.avif`)
     );
     return match ? match[1].default : '';
 };

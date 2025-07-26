@@ -1,5 +1,13 @@
 [
     {
+      "title": "React",
+      "imageSrc": "react"
+    },
+    {
+      "title": "JavaScript",
+      "imageSrc": "js"
+    },
+    {
       "title": "HTML",
       "imageSrc": "html"
     },
@@ -8,12 +16,16 @@
       "imageSrc": "css"
     },
     {
-      "title": "React",
-      "imageSrc": "react"
-    },
-    {
       "title": "Node",
       "imageSrc": "node"
+    },
+    {
+      "title": "GitHub",
+      "imageSrc": "github"
+    },
+    {
+      "title": "Postman",
+      "imageSrc": "postman-icon"
     },
     {
       "title": "Figma",

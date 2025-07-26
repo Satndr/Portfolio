@@ -34,24 +34,12 @@
   color: var(--color-text);
   opacity: 0.9;
   flex: 1;
-  overflow-y: auto;
-  padding-right: 5px;
-  scrollbar-width: thin;
-  scrollbar-color: var(--color-primary) transparent;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 
-.description::-webkit-scrollbar {
-  width: 6px;
-}
 
-.description::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-.description::-webkit-scrollbar-thumb {
-  background-color: var(--color-primary);
-  border-radius: 3px;
-}
 
 .skills {
   width: 100%;

@@ -109,22 +109,30 @@
 
   .content {
     align-items: center;
+    z-index: 10;
+    position: relative;
   }
 
   .title {
     font-size: 48px;
     text-align: center;
+    z-index: 10;
+    position: relative;
   }
 
   .description {
     font-size: 20px;
     text-align: center;
     margin-bottom: 30px;
+    z-index: 10;
+    position: relative;
   }
 
   .contactBtn {
     font-size: 24px;
     padding: 15px 20px;
+    z-index: 10;
+    position: relative;
   }
 }
 
